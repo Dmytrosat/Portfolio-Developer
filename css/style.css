@@ -1,0 +1,33 @@
+body {
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    max-width: 870px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #BF7506;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
